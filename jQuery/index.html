@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            width: 300px;
+            height: auto;
+            border: 2px solid skyblue;
+        }
+    </style>
+</head>
+<body>
+    <!-- before -->
+    <div id="box">
+        <!-- prepend -->
+        <p class="box1">paragraph</p>
+        <p class="box2">paragraph</p>
+        <p class="box3">paragraph</p>
+        <!-- append -->
+    </div>
+    <!-- after -->
+    <button class="append">append</button>
+    <button class="prepend">prepend</button>
+    <button class="before">before</button>
+    <button class="after">after</button>
+    <button class="empty">empty</button>
+    <button class="remove">remove</button>
+    <button class="select">select remove</button>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
